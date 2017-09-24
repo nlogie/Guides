@@ -1,0 +1,27 @@
+import java.io.IOException;
+
+/**
+ * This is designed to be used with the Tyndall EOD Team chief guides
+ */
+
+public class Main {
+
+    /**
+     * This is the main method
+     * @param args
+     */
+    public static void main(String[] args) throws IOException{
+        Main mainObject = new Main();
+        mainObject.run();
+
+    }
+
+    /**
+     * This is the method that will implement the other classes and run the program
+     */
+    public void run() throws IOException{
+        Writer writer = new Writer();
+        writer.writing();
+
+    }
+}
